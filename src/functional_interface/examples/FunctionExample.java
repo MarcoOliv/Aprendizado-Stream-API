@@ -23,5 +23,7 @@ public class FunctionExample {
 
     // Imprimir a lista de números dobrados
     numerosDobrados.forEach(System.out::println);
+
+    System.out.println(dobrar);
   }
 }

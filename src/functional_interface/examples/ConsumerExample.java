@@ -25,5 +25,7 @@ public class ConsumerExample {
     numeros.stream()
         .filter(n -> n % 2 == 0)
         .forEach(System.out::println);
+
+    System.out.println(imprimirNumeroPar);
   }
 }
